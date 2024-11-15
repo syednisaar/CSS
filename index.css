@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  /* Navbar Styling */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+   
+    padding: 15px 30px;
+  }
+
+  /* Logo Styling */
+  .navbar .logo {
+    font-size: 24px;
+    
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  /* Navbar Links Styling */
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  .navbar ul li a {
+    color: #fff;
+   
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .navbar ul li a:hover {
+    color: #4784ff;
+  }
+
+  /* Navbar Button Styling */
+  .navbar .nav-button {
+    background-color: #4784ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+   
+  }
+
+  /* .navbar .nav-button:hover {
+    background-color: #ff4500;
+  } */
+.one{
+    background-color: #282c6f;
+    height: 700px;
+    padding:10%;
+    padding-left: 60px;
+    color: #fff;
+  
+}
+
+
+ 
+ 
+h1{
+  font-size: 60px;
+  padding-bottom: 20px;
+  color: #FFFFFF;
+}
+p{
+  margin-top: 5px;
+  margin-bottom: 30px;
+  color: #FFFFFF;
+  font-size: 16 inherit;
+}
+
+
+.button-container {
+  display: flex;
+  gap: 30px; /* Optional: adds space between buttons */
+}
+
+
+ .button-container{
+  padding-bottom: 5 0px;
+ }
+
+.btn-1{
+  background-color: #4353FF;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 20px;
+  font-size: 16px;
+  color: #fff;
+ 
+  }
+  .btn-1:hover{
+    background-color: #333;
+    color: #fff;
+
+  }
+.btn-2{
+  color: #4353FF;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 20px;
+  font-size: 16px;
+  padding-bottom: 20px;
+  
+}
+.btn-2:hover{
+  background-color: #333;
+  color: #fff;
+
+}
+.two{
+  background-color: rgb(229, 221, 229);
+  height:200px;
+ 
+}
+/*  */
+
+/* General Section Styling */
+.info-container {
+  background-color: #fff;
+  position: absolute;
+  margin: auto;
+  bottom: 20px;
+  display: flex;
+  /* Space between cards */
+  justify-content: center; /* Center the cards horizontally */
+  /* align-items: center; */
+  /* padding: 90px 0; */
+  /* background-color: #f9f9f9;  */
+  width: 50%;
+  height: 30%;
+}
+
+/* Card Styling */
+.info-box {
+  /* width: 50%; */
+  /* padding: 60px 40px 90px; */
+  align-content: center;
+  
+  border: 1px solid #ddd;
+  
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #fff; 
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Hover effect */
+}
+
+.info-icon  {
+  font-size: 40px;
+  color: #4CAF50; /* Icon color */
+  margin-bottom: 10px;
+  /* display:  */
+}
+
+.info-box h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #282525;
+}
+
+.info-box p  {
+  font-size: 16px;
+  color: #282525;
+  font-family: sans-serif;
+}
