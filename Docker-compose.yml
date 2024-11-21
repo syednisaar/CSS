@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  python-app:
+    build: .
+    container_name: python-app
+    volumes:
+      - .:/app
+    ports:
+      - "5000:5000"  # Expose port 5000 for a Flask app or modify for your use case
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python app.py
